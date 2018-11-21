@@ -1,0 +1,20 @@
+{
+    "name": "full-video",
+    "version": "0.1.0",
+    "description": "A utility to auto-size Vimeo video embeds to fill their container element.",
+    "repository": "https://github.com/adamaveray/full-video",
+    "author": "Adam Averay <adam@averay.com>",
+    "license": "MIT",
+    "private": true,
+    "main": "src/full-video.js",
+    "scripts": {
+        "build": "npm run build:js; npm run build:css;",
+        "build:js": "./node_modules/.bin/uglifyjs --compress --mangle --comments /^!/ --output dist/full-video.min.js -- src/full-video.js",
+        "build:css": "./node_modules/.bin/cleancss -o dist/full-video.min.css src/full-video.css"
+    },
+    "devDependencies": {
+        "clean-css-cli": "^4.2.1",
+        "postcss-cli": "^6.0.1",
+        "uglify-js": "^3.4.9"
+    }
+}
