@@ -1,4 +1,4 @@
-/*! full-video 0.1 | github.com/adamaveray/full-video | MIT */
+/*! full-video 0.2 | github.com/adamaveray/full-video | MIT */
 (function($) {
     if (!window.ActiveXObject && 'ActiveXObject' in window) {
         // Unsupported
