@@ -187,4 +187,6 @@
             $item.data('full-video', video);
         });
     };
+
+    $.FullVideo = FullVideo;
 })(window.jQuery);
