@@ -16,6 +16,10 @@
         padding-top: 100%;
         overflow: hidden;
     }
+        .full-video[data-ratio='2:1'] .full-video__video__inner,
+        .full-video--sized[data-ratio='2:1'] .full-video__poster {
+            padding-top: 50%;
+        }
         .full-video[data-ratio='16:9'] .full-video__video__inner,
         .full-video--sized[data-ratio='16:9'] .full-video__poster {
             padding-top: 56.25%;
