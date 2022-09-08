@@ -13,8 +13,8 @@
         "build:css": "./node_modules/.bin/cleancss -o dist/full-video.min.css src/full-video.css"
     },
     "devDependencies": {
-        "clean-css-cli": "^5.6.0",
-        "postcss-cli": "^9.1.0",
-        "uglify-js": "^3.15.4"
+        "clean-css-cli": "^5.6.1",
+        "postcss-cli": "^10.0.0",
+        "uglify-js": "^3.17.0"
     }
 }
